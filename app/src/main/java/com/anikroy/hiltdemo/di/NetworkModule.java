@@ -1,6 +1,6 @@
 package com.anikroy.hiltdemo.di;
 
-import com.anikroy.hiltdemo.ApiInterface;
+import com.anikroy.hiltdemo.Interface.ApiInterface;
 
 import dagger.Module;
 import dagger.Provides;
@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 @InstallIn(ApplicationComponent.class)
 @Module
-public class ApiClient {
+public class NetworkModule {
 
     @Provides
     public String provideBaseUrl(){

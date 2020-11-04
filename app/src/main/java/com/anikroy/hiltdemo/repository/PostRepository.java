@@ -1,6 +1,9 @@
-package com.anikroy.hiltdemo;
+package com.anikroy.hiltdemo.repository;
 
 import androidx.lifecycle.MutableLiveData;
+
+import com.anikroy.hiltdemo.Interface.ApiInterface;
+import com.anikroy.hiltdemo.model.Post;
 
 import java.util.List;
 

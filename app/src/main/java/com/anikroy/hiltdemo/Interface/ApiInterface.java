@@ -1,4 +1,6 @@
-package com.anikroy.hiltdemo;
+package com.anikroy.hiltdemo.Interface;
+
+import com.anikroy.hiltdemo.model.Post;
 
 import java.util.List;
 

@@ -1,10 +1,13 @@
-package com.anikroy.hiltdemo;
+package com.anikroy.hiltdemo.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.anikroy.hiltdemo.R;
+import com.anikroy.hiltdemo.viewmodel.PostViewModel;
 
 import dagger.hilt.android.AndroidEntryPoint;
 
